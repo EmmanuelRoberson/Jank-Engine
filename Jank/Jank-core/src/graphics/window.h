@@ -21,7 +21,6 @@ namespace jank {
 			bool init();
 
 		};
-
 	}
 }
 

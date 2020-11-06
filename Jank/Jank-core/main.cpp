@@ -1,6 +1,4 @@
 #define GLFW_INCLUDE_NONE //explicitly disables includion of development environment header. allows 2 headers to be included in any order
-#include <GLFW/glfw3.h>
-#include <iostream>
 #include "src/graphics/window.h"
 
 int main()
