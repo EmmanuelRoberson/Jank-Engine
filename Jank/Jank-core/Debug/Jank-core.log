@@ -1,0 +1,3 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+D:\Git\Jank Engine\Jank\Debug\Jank-core.exe : fatal error LNK1120: 1 unresolved externals
