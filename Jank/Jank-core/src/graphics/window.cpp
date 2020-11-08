@@ -42,15 +42,16 @@ namespace jank
 			return true;
 		}
 
-		void Window::update() const
+		void Window::update()
 		{
 			glfwPollEvents();
+			glfwGetFramebufferSize(m_Window, &m_Width, &m_Height);
 			glfwSwapBuffers(m_Window);
 		}
 
 		bool Window::closed() const
 		{
-			return glfwWindowShouldClose(m_Window);
+			return glfwWindowShouldClose(m_Window) == 1;
 		}
 	}
 }
